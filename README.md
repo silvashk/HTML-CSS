@@ -1,3 +1,3 @@
 # HTML-CSS
 
-Estou aprendendo sobre repostorios
+Estou aprendendo sobre repositorios
