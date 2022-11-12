@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Formulario</h1>
+    <p>Obrigado por participar do formulario!</p>
+    <form action="." method="post">
+        <fieldset>
+            <label for="nome">Nome <input id="nome" type="text" required class="infor"/></label>
+            <label for="email">Email <input id="email" type="email" required  class="infor"/></label>
+            <label for="idade">Idade <input id="idade" type="number" required min="13" max="120" class="infor"/></label>
+            <label for="opcoes1">Qual Opcao se Encaixa Melhor no seu Perfil? 
+                <select name="opcoes1" id="opcoes1">
+                    <option value="">(selecione seu estado atual)</option>
+                    <option value="1">Estudante</option>
+                    <option value="2">Empregado</option>
+                    <option value="3">Autonomo</option>
+                    <option value="4">Prefiro nao dizer</option>
+                </select>
+            </label>
+        </fieldset>
+        <fieldset>
+            <p>Voce Recomendaria esse Formulario para um Amigo?</p>
+            <label for="sim"><input for="sim" type="radio"/> Sim</label>
+            <label for="naosei"><input for="naosei" type="radio"/> Nao Sei</label>
+            <label for="nao"><input name="nao" type="radio"/> Nao</label>
+        </fieldset>
+        <fieldset>
+            <label for="opcoes2">Qual sua Coisa Favorita do Formulario?
+                <select id="opcoes2" name="opcoes2">
+                <option value="">(selecione uma)</option>
+                <option value="1">Desafios</option>
+                <option value="2">Projetos</option>
+                <option value="3">Comunidade</option>
+                </select>
+            </label>
+        </fieldset>
+        <fieldset>
+            <p>O Que Voce Gostaria de Ver Melhorado?</p>
+            <label for="Front-End Projects"><input id="Front-End Projects" type="checkbox" required name="Front-End Projects" /> Front-End</label>
+            <label for="Back-End Projects"><input id="Back-End Projects" type="checkbox" required name="Back-End Projects" /> Back-End</label>
+            <label for="Responsividade"><input id="Responsividade" type="checkbox" required name="Responsividade" /> Responsividade</label>
+        </fieldset>
+        <fieldset>
+            <label for="bio">Algum Comentario ou Sugestao?
+                <textarea id="bio" name="bio" rows="3" cols="30" placeholder="Digite aqui. . ."></textarea>
+            </label>
+        </fieldset>
+        <input type="submit" value="Submit" />
+    </form>
+</body>
+</html>
+
