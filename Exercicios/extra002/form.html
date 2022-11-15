@@ -5,12 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styleform.css">
 </head>
 <body>
     <h1 class="titulo">Formulario</h1>
-    <p class="titulodes">Obrigado por participar do formulario!</p>
+    <p class="titulodes"><i>Formulario do Yunk Vino</i></p>
     <form action="." method="post">
+        <img src="favicon.png" alt="vlife" class="vlife">
         <fieldset id="fdp">
             <label for="nome">Nome <input id="nome" type="text" required class="infor" placeholder="Digite seu nome. . ."/></label>
             <label for="email">Email <input id="email" type="email" required  class="infor" placeholder="Digite seu email. . ."/></label>
@@ -18,34 +19,38 @@
             <label for="opcoes1">Qual Opcao se Encaixa Melhor no seu Perfil? 
                 <select name="opcoes1" id="opcoes1">
                     <option value="">selecione seu estado atual</option>
-                    <option value="1">Estudante</option>
-                    <option value="2">Empregado</option>
-                    <option value="3">Autonomo</option>
-                    <option value="4">Prefiro nao dizer</option>
+                    <option value="1">muito fa</option>
+                    <option value="2">fa</option>
+                    <option value="3">ouco raramente</option>
+                    <option value="4">nao ouco</option>
                 </select>
             </label>
         </fieldset>
         <fieldset>
-            <p>Voce Recomendaria esse Formulario para um Amigo?</p>
+            <p>Voce Recomendaria o Yunk Vino para seu Amigo?</p>
             <label for="sim"><input for="sim" type="radio"/> Sim</label>
             <label for="naosei"><input for="naosei" type="radio"/> Nao Sei</label>
             <label for="nao"><input name="nao" type="radio"/> Nao</label>
         </fieldset>
         <fieldset>
-            <label for="opcoes2">Qual Sua Coisa Favorita do Formulario?
+            <label for="opcoes2">Qual Sua Coisa Favorita do Yunk Vino?
                 <select id="opcoes2" name="opcoes2">
                 <option value="">selecione uma opcao</option>
-                <option value="1">Desafios</option>
-                <option value="2">Projetos</option>
-                <option value="3">Comunidade</option>
+                <option value="1">Sonoridade</option>
+                <option value="2">Flow</option>
+                <option value="3">Letra</option>
+                <option value="4">Vibe</option>
+                <option value="5">Estetica</option>
                 </select>
             </label>
         </fieldset>
         <fieldset>
-            <p>O Que Voce Gostaria de Ver Melhorado?</p>
-            <label for="Front-End Projects"><input id="Front-End Projects" type="checkbox" required name="Front-End Projects" /> Front-End</label>
-            <label for="Back-End Projects"><input id="Back-End Projects" type="checkbox" required name="Back-End Projects" /> Back-End</label>
-            <label for="Responsividade"><input id="Responsividade" type="checkbox" required name="Responsividade" /> Responsividade</label>
+            <p>O Que Voce Gostaria de Ver Melhorado no Vino?</p>
+            <label for="Sonoridade"><input id="Sonoridade" type="checkbox" required name="Sonoridade" /> Sonoridade</label>
+            <label for="Flow"><input id="Flow" type="checkbox" required name="Flow" /> Flow</label>
+            <label for="Letra"><input id="Letra" type="checkbox" required name="Letra" /> Letra</label>
+            <label for="Vibe"><input id="Vibe" type="checkbox" required name="Vibe" /> Vibe</label>
+            <label for="Estetica"><input id="Estetica" type="checkbox" required name="Estetica" /> Estetica</label>
         </fieldset>
         <fieldset>
             <label for="bio">Algum Comentario ou Sugestao?
@@ -53,6 +58,8 @@
             </label>
         </fieldset>
         <input type="submit" value="Submit" />
+
+        <p><a href="index.html" id="voltar">Voltar para a Biografia</a></p>
     </form>
 </body>
 </html>

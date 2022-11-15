@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.vlife{
+    width: 3em;
+    margin: 10px auto 0 auto;
+    padding-top: 10px;
+    display: block;
+}
+
+body {
+    color: #f5f6f7;
+    font-family: 'Montserrat';
+    font-size: 1.1em;
+    background-color: #590400;   
+}
+
+form {
+    display: block;
+    margin: 0px auto;
+    padding: 0px 0px;
+    width: 80vh;
+    height: 125vh;
+    background-color: #000000;
+}
+
+.titulo{
+    margin: 10px auto;
+}
+
+.titulo, .titulodes {
+    color: white;
+}
+
+input,
+textarea,
+select {
+    margin: 10px 0 0 0;
+    min-height: 0.5em;
+}
+
+input {
+    display: block;
+    height: 2em;
+    border-radius: 5px;
+}
+
+.infor {
+    width: 50vh;
+    min-width: 30vh;
+}
+
+input, textarea {
+    background-color: #ffffff;
+    border: 1px solid #0a0a23;
+    color: #ffffff;
+}
+
+select{
+    display: block;
+    margin: 1em 0;
+    height: 2em;
+}
+
+textarea{
+    display: block;
+}
+
+fieldset {
+    border: 0;
+    padding: 0px 17px;
+}
+
+label {
+    display: block;
+    margin: 0.7em 1em;
+}
+
+h1, p{
+    text-align: center;
+}
+
+form > fieldset > p{
+    text-align: left;
+    margin: 1em;
+}
+
+input[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: rgb(19, 133, 19);
+    border-color: rgb(19, 133, 19);
+    min-width: 300px;
+}
+
+input[type="radio"]{
+    display: inline;
+    vertical-align: -9px;
+    margin: 0px;
+}
+
+input[type="checkbox"]{
+    display: inline;
+    vertical-align: -7px;
+    margin: 0px;
+}
+
+#voltar {
+    color: white;
+    text-decoration: none;
+}
+
+#voltar:hover{
+    color: #590400;
+    text-decoration: underline;
+}
